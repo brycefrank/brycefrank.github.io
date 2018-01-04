@@ -5,6 +5,7 @@ My research interests revolve around LiDAR and remote sensing applications for l
   - Small Area Estimation
   - Classification Methods
 - Geospatial Data Processing
+
 - Tree Detection Algorithms
 
 I also spent two years as a timber cruiser with the Washington State Department of Natural Resources and have an interest in traditional forest measurement methods, tools,
