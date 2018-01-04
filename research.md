@@ -12,4 +12,4 @@ and software. I am specifically interested in how field measurements affect the 
 
 ### Conference Papers
 
-Frank, Bryce, Francisco Mauro, Manuel Gomez Roux, Antonio García Abril, Ana Hernando, Hailemariam Temesgen, Kevin Ford, José Antonio Manzanera de la Vega, and Ruben Valbuena. Small Area Estimation of Forest Attributes Using LiDAR Based Unit-Level Models and Area-Level Models at Two Different Scales, 2017.
+Frank, Bryce, Francisco Mauro, Manuel Gomez Roux, Antonio García Abril, Ana Hernando, Hailemariam Temesgen, Kevin Ford, José Antonio Manzanera de la Vega, and Ruben Valbuena. *Small Area Estimation of Forest Attributes Using LiDAR Based Unit-Level Models and Area-Level Models at Two Different Scales*, 2017.
