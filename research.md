@@ -10,7 +10,7 @@ My research interests revolve around LiDAR and remote sensing applications for l
 
 - Tree Detection Algorithms
 
-I also spent two years as a timber cruiser with the Washington State Department of Natural Resources and have an interest in traditional forest measurement methods, tools,
+Before graduate school I spent two years as a timber cruiser with the Washington State Department of Natural Resources and have an interest in traditional forest measurement methods, tools,
 and software. I am specifically interested in how field measurements affect the conclusions we can make using remote sensing assisted forest inventories.
 
 ### Conference Papers
