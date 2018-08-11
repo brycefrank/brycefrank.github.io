@@ -35,6 +35,13 @@
           <a href ="research">Research</a><br>
           <a href ="software">Software</a><br>
           <a href ="contact">Contact</a><br>
+		  <ul>
+			  {% for posts in site.posts %}
+			  <li>
+				  <a href="{{ post.url }}">{{ post.title }}</a>
+			  </li>
+			  {% end for}
+		  </ul>
       </header>
       <section>
 
