@@ -12,3 +12,12 @@ I am a PhD student in the Forest Engineering, Resources and Management Departmen
 
 2. LiDAR Thinning Optimization - analysis of thinnable areas in Southwestern Oregon
 
+
+
+<ul>
+  {% for posts in site.posts %}
+  <li>
+	  <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% end for}
+</ul>
