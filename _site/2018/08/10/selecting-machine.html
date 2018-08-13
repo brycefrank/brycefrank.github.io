@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Getting Started | Bryce Frank</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="Getting Started" />
+<meta name="author" content="Bryce Frank" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Before jumping in head first, I decided it may be prudent to run a small processing job on one of the free-tier machines. I highly suggest doing this just to get a feel for the process. Also, if you are unfamiliar with using the terminal, this will be a good place to start. At the bottom of this post are some useful terminal commands for this situation." />
+<meta property="og:description" content="Before jumping in head first, I decided it may be prudent to run a small processing job on one of the free-tier machines. I highly suggest doing this just to get a feel for the process. Also, if you are unfamiliar with using the terminal, this will be a good place to start. At the bottom of this post are some useful terminal commands for this situation." />
+<link rel="canonical" href="http://localhost:4000/2018/08/10/selecting-machine.html" />
+<meta property="og:url" content="http://localhost:4000/2018/08/10/selecting-machine.html" />
+<meta property="og:site_name" content="Bryce Frank" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-10T00:00:00-07:00" />
+<script type="application/ld+json">
+{"description":"Before jumping in head first, I decided it may be prudent to run a small processing job on one of the free-tier machines. I highly suggest doing this just to get a feel for the process. Also, if you are unfamiliar with using the terminal, this will be a good place to start. At the bottom of this post are some useful terminal commands for this situation.","author":{"@type":"Person","name":"Bryce Frank"},"@type":"BlogPosting","url":"http://localhost:4000/2018/08/10/selecting-machine.html","headline":"Getting Started","dateModified":"2018-08-10T00:00:00-07:00","datePublished":"2018-08-10T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/08/10/selecting-machine.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=64e8a28d6f6c67a73fd01b0ff632db8fa056bf3b">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href="http://github.com/pages/brycefrank/brycefrank.github.io"> <h1>Bryce Frank</h1> </a>
+        <p></p>
+
+
+        
+          <p class="view"><a href="http://github.com/brycefrank/brycefrank.github.io">View the Project on GitHub <small></small></a></p>
+        
+
+        
+
+          <b>Personal</b><br>
+          <a href ="index">About</a><br>
+          <a href ="research">Research</a><br>
+          <a href ="software">Software</a><br>
+          <a href ="contact">Contact</a><br>
+ 	  <br>
+          <b>Resources</b><br>
+  	  <a href ="cloud_computing_main">Cloud Computing & LiDAR</a>
+      </header>
+      <section>
+
+      <small>10 August 2018</small>
+<h1>Getting Started</h1>
+
+<p class="view">by Bryce Frank</p>
+
+<p>Before jumping in head first, I decided it may be prudent to run a small processing job on one of the free-tier machines. I highly suggest doing this just to get a feel for the process. Also, if you are unfamiliar with using the terminal, this will be a good place to start. At the bottom of this post are some useful terminal commands for this situation.</p>
+
+<h2 id="selecting-a-machine">Selecting a Machine</h2>
+
+<p>I will not walk through every step of setting up the virtual machine, but I will expound on a few details. First, I decided to stick with an Ubuntu VM - specifically Ubuntu Server 16.04 LTS. This is the platform I am most familiar with, but others are available (Amazon Linux 1 and 2, Red Hat, SUSE, Microsoft Windows Server, and a Deep Learning AMI).</p>
+
+<p>At the time of writing, only one free tier eligible machine is available - the t2.micro. This machine contains one virtual CPU and 1 GB of memory.</p>
+
+<p><img src="http://localhost:4000/assets/free-tier.png" alt="AWS Free Tier Machine" /></p>
+
+<h2 id="connecting-to-the-instance">Connecting to the Instance</h2>
+
+<p>After clicking Launch, the instance should run and we should see our machine available in the dashboard. The next step is to connect to the instance. This procedure will be highly dependend on your operating system and your preferred means of connection. AWS provides <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html?icmpid=docs_ec2_console">extensive documentation</a> for connecting to an instance.</p>
+
+<p>Once connected our terminal should show the following:</p>
+
+<p><img src="http://localhost:4000/assets/connected.png" alt="Connected" /></p>
+
+<h2 id="installing-software">Installing Software</h2>
+
+<p>Next, we would like to install some software on our virtual machine. For selfish reasons, I will install pyfor and its pre-requisites. I imagine, given the speed of this virtual machine, that this will take a good while. In any case, I first need to install miniconda for package management using the following:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+</code></pre></div></div>
+
+<p>This retrieves a shell script from the provided link that will begin installing Miniconda when ran:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chmod +x Miniconda3-latest-Linux-x86_64.sh
+./Miniconda3-latest-Linux-x86_64.sh
+</code></pre></div></div>
+
+<p>Go ahead and select <code class="highlighter-rouge">yes</code> when prompted to prepend the bashrc file. Finally, restart bash to get access to conda:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+</code></pre></div></div>
+
+<p>Next we just need to clone pyfor and run the installation script.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/brycefrank/pyfor.git
+cd pyfor
+conda env create -f environment.yml
+</code></pre></div></div>
+
+<p>This creates the conda environment to install pyfor. From my experience, the environment installation varies greatly with the host operating system, and tends to complete faster using Linux operating systems. My setup took roughly 8 minutes.</p>
+
+<p>Next we need to install the package itself. After install I always check if I can import pyfor in a Python shell.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install .
+source activate pyfor_env
+python
+import pyfor
+</code></pre></div></div>
+
+<p>If the import succeeds, breathe a sigh of relief we should be able to process.</p>
+
+<h2 id="sending-data">Sending Data</h2>
+
+<p>Before we think about sending data it may be prudent to check the amount of space we have remaining in our little instance using the following command:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>df -h
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            488M     0  488M   0% /dev
+tmpfs           100M  3.3M   96M   4% /run
+/dev/xvda1      7.7G  5.3G  2.5G  69% /
+tmpfs           496M     0  496M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           496M     0  496M   0% /sys/fs/cgroup
+/dev/loop0       87M   87M     0 100% /snap/core/4830
+/dev/loop1       13M   13M     0 100% /snap/amazon-ssm-agent/295
+tmpfs           100M     0  100M   0% /run/user/1000
+
+</code></pre></div></div>
+
+<p>It is no lie that pyfor’s deep dependency stack is bulky - all told we have installed ~5.3 GB (for pyfor 0.2.2) of material on this machine. For larger scale instances this will not be a deal breaker, but we are now limited to 2.5 GB. Good thing we are only worried about a small data set today.</p>
+
+<p>Data can be sent to your Ubuntu instance via secure copy protocol, or  <code class="highlighter-rouge">scp</code>. This will need to be done from your PC (or wherever your data is located). A variety of tools exist to do this for multiple operating systems. Windows users should look toward installing <code class="highlighter-rouge">WinSCP</code> for this purpose. I will choose to send the pyfor test data sample to the server with the following command - fill in your specific details:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scp -i test-machine.pem &lt;path to your las file&gt; ubuntu@&lt;your instance domain&gt;:~
+</code></pre></div></div>
+
+<h2 id="processing-a-small-data-set">Processing a Small Data Set</h2>
+
+<p>We are now ready to process. To simulate a semi-realistic processing scenario, I will choose to normalize my tile several times in a row, just to get a sense of our processing capability. We must be wise about our RAM allocation. I run the following commands in a Python shell (with our <code class="highlighter-rouge">pyfor_env</code> environment activated).</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from pyfor.cloud import Cloud
+
+for i in range(100):
+    print(i)
+    pc = Cloud("test.las")
+    pc.normalize(0.5)
+</code></pre></div></div>
+
+<h2 id="useful-terminal-tips">Useful Terminal Tips</h2>
+
+<p>If you are using a Linux terminal and SSH to interact with your instance, there will be some situations that come up.</p>
+
+<p>First, especially for instances with small capacity, it is useful to be able to check the available space on the instance:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>df -h
+</code></pre></div></div>
+
+
+
+
+  <small>tags: <em></em></small>
+
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="http://github.com/brycefrank">brycefrank</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

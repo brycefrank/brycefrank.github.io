@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Introduction | Bryce Frank</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="Introduction" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Cloud computing for the purposes of LiDAR data processing for forest inventory was a subject of discussion at the most recent Operational LiDAR Inventory meeting in Olympia, WA this past spring. If I may be so bold as to summarize the sentiment - it seemed as if most remote sensing assisted inventories utilized a dedicated processing server to process remote sensing data sets and it seemed to be the exception, rather than the rule, a given organization used cloud computing resources. This, to me, was not terribly surprising. Forest tech, or whatever we would like to call it, can be a bit slow moving. It seems the return on investment of software and hardware development for forest industry applications is low, so it is no surprise that innovation and forward thinking are rare in these cases." />
+<meta property="og:description" content="Cloud computing for the purposes of LiDAR data processing for forest inventory was a subject of discussion at the most recent Operational LiDAR Inventory meeting in Olympia, WA this past spring. If I may be so bold as to summarize the sentiment - it seemed as if most remote sensing assisted inventories utilized a dedicated processing server to process remote sensing data sets and it seemed to be the exception, rather than the rule, a given organization used cloud computing resources. This, to me, was not terribly surprising. Forest tech, or whatever we would like to call it, can be a bit slow moving. It seems the return on investment of software and hardware development for forest industry applications is low, so it is no surprise that innovation and forward thinking are rare in these cases." />
+<link rel="canonical" href="http://localhost:4000/2018/08/10/intro.html" />
+<meta property="og:url" content="http://localhost:4000/2018/08/10/intro.html" />
+<meta property="og:site_name" content="Bryce Frank" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-10T00:00:00-07:00" />
+<script type="application/ld+json">
+{"description":"Cloud computing for the purposes of LiDAR data processing for forest inventory was a subject of discussion at the most recent Operational LiDAR Inventory meeting in Olympia, WA this past spring. If I may be so bold as to summarize the sentiment - it seemed as if most remote sensing assisted inventories utilized a dedicated processing server to process remote sensing data sets and it seemed to be the exception, rather than the rule, a given organization used cloud computing resources. This, to me, was not terribly surprising. Forest tech, or whatever we would like to call it, can be a bit slow moving. It seems the return on investment of software and hardware development for forest industry applications is low, so it is no surprise that innovation and forward thinking are rare in these cases.","@type":"BlogPosting","url":"http://localhost:4000/2018/08/10/intro.html","headline":"Introduction","dateModified":"2018-08-10T00:00:00-07:00","datePublished":"2018-08-10T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/08/10/intro.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=64e8a28d6f6c67a73fd01b0ff632db8fa056bf3b">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href="http://github.com/pages/brycefrank/brycefrank.github.io"> <h1>Bryce Frank</h1> </a>
+        <p></p>
+
+
+        
+          <p class="view"><a href="http://github.com/brycefrank/brycefrank.github.io">View the Project on GitHub <small></small></a></p>
+        
+
+        
+
+          <b>Personal</b><br>
+          <a href ="index">About</a><br>
+          <a href ="research">Research</a><br>
+          <a href ="software">Software</a><br>
+          <a href ="contact">Contact</a><br>
+ 	  <br>
+          <b>Resources</b><br>
+  	  <a href ="cloud_computing_main">Cloud Computing & LiDAR</a>
+      </header>
+      <section>
+
+      <small>10 August 2018</small>
+<h1>Introduction</h1>
+
+<p class="view">by </p>
+
+<p>Cloud computing for the purposes of LiDAR data processing for forest inventory was a subject of discussion at the most recent <a href="www.forestlidar.org/?q=node/10">Operational LiDAR Inventory</a> meeting in Olympia, WA this past spring. If I may be so bold as to summarize the sentiment - it seemed as if most remote sensing assisted inventories utilized a dedicated processing server to process remote sensing data sets and it seemed to be the exception, rather than the rule, a given organization used cloud computing resources. This, to me, was not terribly surprising. Forest tech, or whatever we would like to call it, can be a bit slow moving. It seems the return on investment of software and hardware development for forest industry applications is low, so it is no surprise that innovation and forward thinking are rare in these cases.</p>
+
+<p>But if ever there was a nugget of forest tech innovation, it would certainly be at OLI. Some at the meeting expressed interest in cloud computing, and I took it upon myself to investigate a little deeper. After the OLI meeting this year I applied for a modest $1000 research grant with Amazon Web Services to explore this issue and recently received news that my application was succesful. The original intent with the grant was to continue to develop my LiDAR processing package in the context of paralell processing. I have recently made it to the point in its development cycle that it is able to reasonably process individual LiDAR tiles including the basics (normalization, grid metrics, clipping, etc. etc.) so it seems a natural next step to consider designing the package for use in production settings. However, my little 4-core lab work station, circa 2010, does not exactly provide the horsepower that a realistic processing machine would provide.</p>
+
+<p>Fortunately, AWS provides a service called EC2 which provides virtual machines for anything from personal web servers to entities capable of production level data processing. After a quick perusal of the various options AWS provides - everything from different configurations to different operating systems installed at runtime - it is clear that at least some level of production processing in the cloud is available.</p>
+
+<p>These posts will detail the trials and tribulations of my foray into cloud computing for LiDAR data processing, provide information about road blocks, expected cost, and feasibility for large data acquisitions. Most of these will revolve around using pyfor, but given extra funds and time I will see if I can’t test a bit with lidR and FUSION as well.</p>
+
+
+
+  <small>tags: <em></em></small>
+
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="http://github.com/brycefrank">brycefrank</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>
