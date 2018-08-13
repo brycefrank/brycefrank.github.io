@@ -11,13 +11,3 @@ I am a PhD student in the Forest Engineering, Resources and Management Departmen
 1. [pyfor](https://github.com/brycefrank/pyfor) - LiDAR data processing for forest inventory in Python.
 
 2. LiDAR Thinning Optimization - analysis of thinnable areas in Southwestern Oregon
-
-
-
-<ul>
-  {% for posts in site.posts %}
-  <li>
-	  <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% end for %}
-</ul>
