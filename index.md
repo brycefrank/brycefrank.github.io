@@ -19,5 +19,5 @@ I am a PhD student in the Forest Engineering, Resources and Management Departmen
   <li>
 	  <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
-  {% end for}
+  {% end for %}
 </ul>
