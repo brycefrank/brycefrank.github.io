@@ -13,6 +13,10 @@ My research interests revolve around LiDAR and remote sensing applications for l
 Before graduate school I spent two years as a timber cruiser with the Washington State Department of Natural Resources and have an interest in traditional forest measurement methods, tools,
 and software. I am specifically interested in how field measurements affect the conclusions we can make using remote sensing assisted forest inventories.
 
+### Publications
+
+Mauro, Francisco, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Kevin Ford. 2018. *Prediction of diameter distributions and tree-lists in southwestern Oregon using LiDAR and stand-level auxiliary information.* (Pending Review)
+
 ### Conference Papers
 
 Frank, Bryce, Francisco Mauro, Manuel Gomez Roux, Antonio García Abril, Ana Hernando, Hailemariam Temesgen, Kevin Ford, José Antonio Manzanera de la Vega, and Ruben Valbuena. *Small Area Estimation of Forest Attributes Using LiDAR Based Unit-Level Models and Area-Level Models at Two Different Scales*, 2017.
