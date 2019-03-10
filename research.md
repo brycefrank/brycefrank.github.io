@@ -15,7 +15,9 @@ and software. I am specifically interested in how field measurements affect the 
 
 ### Publications
 
-Mauro, Francisco, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Kevin Ford. 2018. *Prediction of diameter distributions and tree-lists in southwestern Oregon using LiDAR and stand-level auxiliary information.* (Pending Review)
+Huy, Bao, Nguyen Thi Tinh, Krishna Poudel, Bryce Frank, and Hailemariam Temesgen. 2019. *Taxon-specific modeling systems for improving reliability of tree aboveground biomass and its components estimates in tropical dry dipterocarp forests.* Forest Ecology and Management.
+
+Mauro, Francisco, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Kevin Ford. 2019. *Prediction of diameter distributions and tree-lists in southwestern Oregon using LiDAR and stand-level auxiliary information.* Canadian Journal of Forest Research.
 
 ### Conference Papers
 
