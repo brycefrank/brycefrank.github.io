@@ -24,7 +24,7 @@ written in the R programming language. forvol provides a flexible way for forest
 inventory professionals to interact with FIA volume equations for various species. 
 
 [sptotal](https://github.com/highamm/sptotal): A package for estimating population totals of finite populations
-of spatially correlated data. Developed in conjunction with Matthew Highamm,
+of spatially correlated data. Developed in conjunction with Matthew Higham,
 Dr. Jay Ver Hoef, and Dr. Francisco Mauro-Gutierrez (in development).
 
 ## Javascript
