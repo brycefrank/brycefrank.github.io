@@ -13,7 +13,7 @@ Frank, Bryce, Francisco Mauro, Hailemariam Temesgen, and Kevin Ford. 2019. *Anal
 
 Huy, Bao, Nguyen Thi Tinh, Krishna Poudel, Bryce Frank, and Hailemariam Temesgen. 2019. *Taxon-specific modeling systems for improving reliability of tree aboveground biomass and its components estimates in tropical dry dipterocarp forests.* Forest Ecology and Management.
 
-Mauro, Francisco, Martin Ritchie, Brian Wing, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Andrew Hudak. *Estimation of changes of forest structural attributes at three different spatial aggregation levels in Northern California using multitemporal LiDAR.* Remote Sensing.
+Mauro, Francisco, Martin Ritchie, Brian Wing, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Andrew Hudak. 2019. *Estimation of changes of forest structural attributes at three different spatial aggregation levels in Northern California using multitemporal LiDAR.* Remote Sensing.
 
 Mauro, Francisco, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Kevin Ford. 2019. *Prediction of diameter distributions and tree-lists in southwestern Oregon using LiDAR and stand-level auxiliary information.* Canadian Journal of Forest Research.
 
