@@ -1,17 +1,21 @@
 # Research
 
 I am a PhD student at Oregon State University under the advisement of Temesgen Hailemariam in the [Forest Measurements and Biometrics Lab](http://fmbl.forestry.oregonstate.edu/).
-My research interests revolve around LiDAR and remote sensing applications for large scale analysis of forest resources including the specifics:
+My research interests revolve around LiDAR and remote sensing applications for large scale analysis of forest resources. In particular:
 
-- Statistical Methods
-  - Small Area Estimation
-  - Classification Methods
-- Geospatial Data Processing
+- Small Area Estimation
+- Uncertainty Assessment
+- Applications for Non-Parametric Methods
 
-- Tree Detection Algorithms
+### Publications
 
-Before graduate school I spent two years as a timber cruiser with the Washington State Department of Natural Resources and have an interest in traditional forest measurement methods, tools,
-and software. I am specifically interested in how field measurements affect the conclusions we can make using remote sensing assisted forest inventories.
+Frank, Bryce, Francisco Mauro, Hailemariam Temesgen, and Kevin Ford. 2019. *Analysis of Classification Methods for Identifying Stands for Commercial Thinning using LiDAR.* Canadian Journal of Remote Sensing.
+
+Huy, Bao, Nguyen Thi Tinh, Krishna Poudel, Bryce Frank, and Hailemariam Temesgen. 2019. *Taxon-specific modeling systems for improving reliability of tree aboveground biomass and its components estimates in tropical dry dipterocarp forests.* Forest Ecology and Management.
+
+Mauro, Francisco, Martin Ritchie, Brian Wing, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Andrew Hudak. 2019. *Estimation of changes of forest structural attributes at three different spatial aggregation levels in Northern California using multitemporal LiDAR.* Remote Sensing.
+
+Mauro, Francisco, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Kevin Ford. 2019. *Prediction of diameter distributions and tree-lists in southwestern Oregon using LiDAR and stand-level auxiliary information.* Canadian Journal of Forest Research.
 
 ### Conference Papers
 
