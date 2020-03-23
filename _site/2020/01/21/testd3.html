@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Test | Bryce Frank</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Test" />
+<meta name="author" content="Bryce Frank" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/2020/01/21/testd3.html" />
+<meta property="og:url" content="http://localhost:4000/2020/01/21/testd3.html" />
+<meta property="og:site_name" content="Bryce Frank" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-01-21T00:00:00-08:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"http://localhost:4000/2020/01/21/testd3.html","headline":"Test","datePublished":"2020-01-21T00:00:00-08:00","dateModified":"2020-01-21T00:00:00-08:00","author":{"@type":"Person","name":"Bryce Frank"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/01/21/testd3.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=6c1371eea2bd41ca6113bd0f44d6f7c55d38fc11">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href="https://github.com/pages/brycefrank/brycefrank.github.io"> <h1>Bryce Frank</h1> </a>
+        <p></p>
+
+        
+
+          <a href ="/index">About</a><br>
+          <a href ="/research">Research</a><br>
+          <a href ="/software">Software</a><br>
+          <a href ="/contact">Contact</a><br>
+          <a href ="/blog">Blog</a>
+      </header>
+      <section>
+
+      <small>21 January 2020</small>
+<h1>Test</h1>
+
+<p class="view">by Bryce Frank</p>
+
+<style>
+
+	.axis {
+	  font: 10px sans-serif;
+	}
+
+	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
+
+</style>
+
+<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+
+<div id="graphic"></div>
+
+<script>
+var margin = {top: 20, right: 20, bottom: 70, left: 40},
+    width = 600 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
+
+// Parse the date / time
+var	parseDate = d3.time.format("%Y-%m").parse;
+
+var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
+
+var y = d3.scale.linear().range([height, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom")
+    .tickFormat(d3.time.format("%Y-%m"));
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .ticks(10);
+
+var svg = d3.select("#graphic").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+d3.csv("/assets/bar-data.csv", function(error, data) {
+
+    data.forEach(function(d) {
+        d.date = parseDate(d.date);
+        d.value = +d.value;
+    });
+	
+  x.domain(data.map(function(d) { return d.date; }));
+  y.domain([0, d3.max(data, function(d) { return d.value; })]);
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .selectAll("text")
+      .style("text-anchor", "end")
+      .attr("dx", "-.8em")
+      .attr("dy", "-.55em")
+      .attr("transform", "rotate(-90)" );
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Value ($)");
+
+  svg.selectAll("bar")
+      .data(data)
+    .enter().append("rect")
+      .style("fill", "steelblue")
+      .attr("x", function(d) { return x(d.date); })
+      .attr("width", x.rangeBand())
+      .attr("y", function(d) { return y(d.value); })
+      .attr("height", function(d) { return height - y(d.value); })
+      .on('mouseover', function(d, i){
+          console.log('test')
+      });
+
+});
+
+</script>
+
+
+
+
+  <small>tags: <em></em></small>
+
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/brycefrank">brycefrank</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138257649-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138257649-1');
+</script>
+
+
+  </body>
+</html>

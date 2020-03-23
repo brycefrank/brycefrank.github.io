@@ -1,6 +1,9 @@
 # Research
 
-I am a PhD student at Oregon State University under the advisement of Temesgen Hailemariam in the [Forest Measurements and Biometrics Lab](http://fmbl.forestry.oregonstate.edu/).
+I am a forest biometrician at Oregon State University. I recently
+completed my PhD program under the advisement of Temesgen Hailemariam in the [Forest
+Measurements and Biometrics
+Lab](http://fmbl.forestry.oregonstate.edu/).
 My research interests revolve around LiDAR and remote sensing applications for large scale analysis of forest resources. In particular:
 
 - Small Area Estimation
