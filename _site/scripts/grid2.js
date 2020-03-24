@@ -1,4 +1,6 @@
 var gb2 = d3.select("#gridBody2")
+    .style("float", "left")
+    .style("vertical-align", "middle")
     .append("svg")
     .attr("width", cell_size * grid_width + grid_buffer + "px")
     .attr("height", cell_size * grid_height + grid_buffer + "px")
@@ -102,9 +104,9 @@ cells.then(function(d) {
             .style("opacity", 0)
     });
 
-    var margin = {top: 50, right: 50, bottom: 50, left: 50}
-    , width = 500 - margin.left - margin.right // Use the window's width 
-    , height = 500 - margin.top - margin.bottom; // Use the window's height
+    var margin = {top: 15, right: 15, bottom: 30, left: 45}
+    , width =  250 - margin.left - margin.right // Use the window's width 
+    , height = 250 - margin.top - margin.bottom; // Use the window's height
 
 
     var xScale = d3.scaleLinear()
@@ -117,6 +119,7 @@ cells.then(function(d) {
 
 
     var est_svg = d3.select('#estBody')
+        .style("float", "left")
         .append('svg')
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
@@ -124,20 +127,28 @@ cells.then(function(d) {
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     est_svg.append("g")
-    .attr("class", "x axis")
-    .attr("transform", "translate(0," + height + ")")
-    .call(d3.axisBottom(xScale)); // Create an axis component with d3.axisBottom
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(xScale).ticks(5)); // Create an axis component with d3.axisBottom
 
     est_svg.append("g")
-    .attr("class", "y axis")
-    .call(d3.axisLeft(yScale)); // Create an axis component with d3.axisLeft
+        .attr("class", "y axis")
+        .call(d3.axisLeft(yScale)); // Create an axis component with d3.axisLeft
 
     est_svg.append("text")             
       .attr("transform",
             "translate(" + (width/2) + " ," + 
-                           (height + margin.top - 20) + ")")
+                           (height + margin.top + 15) + ")")
       .style("text-anchor", "middle")
       .text("M");
+
+    est_svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0 - margin.left)
+      .attr("x",0 - (height / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Expected Value"); 
 
     est_svg
         .append("line")

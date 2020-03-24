@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Design-based Unbiasedness | Bryce Frank</title>
+<title>Design Unbiasedness | Bryce Frank</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Design-based Unbiasedness" />
+<meta property="og:title" content="Design Unbiasedness" />
 <meta name="author" content="Bryce Frank" />
 <meta property="og:locale" content="en_US" />
 <link rel="canonical" href="http://localhost:4000/2020/01/27/db-mb-viz.html" />
@@ -16,11 +16,11 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-01-27T00:00:00-08:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/2020/01/27/db-mb-viz.html","headline":"Design-based Unbiasedness","datePublished":"2020-01-27T00:00:00-08:00","dateModified":"2020-01-27T00:00:00-08:00","author":{"@type":"Person","name":"Bryce Frank"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/01/27/db-mb-viz.html"},"@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/2020/01/27/db-mb-viz.html","author":{"@type":"Person","name":"Bryce Frank"},"headline":"Design Unbiasedness","dateModified":"2020-01-27T00:00:00-08:00","datePublished":"2020-01-27T00:00:00-08:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/01/27/db-mb-viz.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=6c1371eea2bd41ca6113bd0f44d6f7c55d38fc11">
+    <link rel="stylesheet" href="/assets/css/style.css?v=8b63160711850df15a0a7e10401fabc4e963b6a1">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -43,7 +43,7 @@
       <section>
 
       <small>27 January 2020</small>
-<h1>Design-based Unbiasedness</h1>
+<h1>Design Unbiasedness</h1>
 
 <p class="view">by Bryce Frank</p>
 
@@ -167,13 +167,26 @@ estimator once the simulation begins.</p>
 <div id="figure2" align="center">
   <div id="gridBody2"></div>
   <div id="estBody"></div>
-  <div id="option">
-    <button id="startButton" type="button">Start</button>
-  </div>
+<div id="option">
+  <button id="startButton" type="button">Start</button>
 </div>
-<script src="/scripts/grid2.js"></src>
-<script src="/scripts/tau_sim.js"></src>
-</script>
+</div>
+<script src="/scripts/grid2.js"></script>
+
+<p>As the simulation progresses, it is clear that the quantity on the y axis,
+<script type="math/tex">E_{D}[\hat{\tau}]</script> approaches the
+true value, <script type="math/tex">\tau = 135</script>. Another important note is that any <em>given</em> can be some distance away
+from <script type="math/tex">\tau</script>. The magnitude of this distance can be assessed with the standard error of the
+estimator, which will be the subject of another post.</p>
+
+<h3 id="takeaways">Takeaways</h3>
+
+<ul>
+  <li>Design-based inference is a major way estimates of forest inventory attributes are produced</li>
+  <li>Design unbiasedness of an estimator is assessed across all possible samples by using the
+expectation</li>
+  <li>We can dem</li>
+</ul>
 
 
 

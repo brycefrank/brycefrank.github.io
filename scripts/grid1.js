@@ -1,7 +1,7 @@
 var grid_height = 6;
 var grid_width = 6;
-var cell_size = 20;
-var grid_buffer = 0;
+var cell_size = 38;
+var grid_buffer = 2;
 var between = 3;
 
 var gb1 = d3.select("#gridBody1")
