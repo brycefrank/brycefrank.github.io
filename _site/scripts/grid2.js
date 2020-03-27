@@ -1,6 +1,4 @@
 var gb2 = d3.select("#gridBody2")
-    .style("float", "left")
-    .style("vertical-align", "middle")
     .append("svg")
     .attr("width", cell_size * grid_width + grid_buffer + "px")
     .attr("height", cell_size * grid_height + grid_buffer + "px")
@@ -21,7 +19,6 @@ function in_array(array, x) {
     return false;
 }
 
-
 function srswor(n, N) {
     var ixs = [];
 
@@ -33,7 +30,6 @@ function srswor(n, N) {
     }
     return(ixs)
 }
-
 
 function select_sample(selection) {
     var indices = srswor(4, 36);
@@ -119,7 +115,6 @@ cells.then(function(d) {
 
 
     var est_svg = d3.select('#estBody')
-        .style("float", "left")
         .append('svg')
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)

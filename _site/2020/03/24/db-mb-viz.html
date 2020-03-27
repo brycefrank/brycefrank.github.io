@@ -16,11 +16,11 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-03-24T00:00:00-07:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/2020/03/24/db-mb-viz.html","author":{"@type":"Person","name":"Bryce Frank"},"headline":"Design Unbiasedness","dateModified":"2020-03-24T00:00:00-07:00","datePublished":"2020-03-24T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/03/24/db-mb-viz.html"},"@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/2020/03/24/db-mb-viz.html","headline":"Design Unbiasedness","dateModified":"2020-03-24T00:00:00-07:00","datePublished":"2020-03-24T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/03/24/db-mb-viz.html"},"author":{"@type":"Person","name":"Bryce Frank"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=8b63160711850df15a0a7e10401fabc4e963b6a1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=e7255b74fcfe24c47d3b90afec81a08ab054f646">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -70,25 +70,29 @@
   });
 </script>
 
-<p>Many forest inventories rely on design-based inference to produce estimates of population totals. The main tenent of design-based inference is the use of a
-randomization process to select samples from the population. We
-can leverage this randomization process to construct estimators
-of population parameters. In design-based inference we desire estimators with good properties. One
-of those properties is unbiasedness. This post will demonstrate what is meant by design unbiasedness
+<style>
+#figure2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+</style>
+
+<p>Many forest inventories rely on design-based inference to produce estimates of population totals.
+The main tenent of design-based inference is the use of a randomization process to select samples
+from the population. We can leverage this randomization process to construct estimators of
+population parameters. In design-based inference we desire estimators with good properties. One of
+those properties is unbiasedness. This post will demonstrate what is meant by design unbiasedness
 using a visual demonstration.</p>
 
-<p>For this post, we will consider the
-population total:</p>
+<p>For this post, we will consider the population total:</p>
 
 <script type="math/tex; mode=display">\tau = \sum_{i=1}^{N} y_i</script>
 
-<p>our target parameter. Note that <script type="math/tex">N</script> represents the population
-size and <script type="math/tex">y_i</script> represents the observation of the <script type="math/tex">i</script>th
-population unit. We can represent this population with the grid
-below, where each grid cell is a population unit, and each
-observation (i.e. the <script type="math/tex">y_i</script>) is indicated by a number. Examine the individual population values by
-hovering your mouse over the population unit. Yellower colors indicate high values, and cooler
-colors indicate lower values.</p>
+<p>our target parameter. Note that <script type="math/tex">N</script> represents the population size and <script type="math/tex">y_i</script> represents the
+observation of the <script type="math/tex">i</script>th population unit. We can represent this population with the grid below,
+where each grid cell is a population unit, and each observation (i.e. the <script type="math/tex">y_i</script>) is indicated by a
+number. Examine the individual population values by hovering your mouse over the population unit.
+Yellower colors indicate high values, and cooler colors indicate lower values.</p>
 
 <script type="text/javascript" src="https://d3js.org/d3.v5.js"></script>
 
@@ -102,58 +106,48 @@ sampling problems <script type="math/tex">\tau</script> will be unknown.</p>
 
 <h3 id="sampling-designs-and-estimators">Sampling Designs and Estimators</h3>
 
-<p>As samplers, our objective is to construct an estimate of
-<script type="math/tex">\tau</script> using only a limited number of observations. In
-design-based inference we do so by leveraging the process of
-randomization when selecting a sample from our population. This
-process of randomization ultimately allows us to establish
-important properties of a given estimator, such as unbiasedness.</p>
+<p>As samplers, our objective is to construct an estimate of <script type="math/tex">\tau</script> using only a limited number of
+observations. In design-based inference we do so by leveraging the process of randomization when
+selecting a sample from our population. This process of randomization ultimately allows us to
+establish important properties of a given estimator, such as unbiasedness.</p>
 
-<p>A very common estimator available to us is the Horvitz-Thompson
-estimator, which relies on knowledge of the inclusion probability
-of each population unit. The inclusion probability <script type="math/tex">\pi_i</script> is
-the probability a population unit is selected into a sample. The
-Horvitz-Thompson estimator is:</p>
+<p>A very common estimator available to us is the Horvitz-Thompson estimator, which relies on knowledge
+of the inclusion probability of each population unit. The inclusion probability <script type="math/tex">\pi_i</script> is the
+probability a population unit is selected into a sample. The Horvitz-Thompson estimator is:</p>
 
 <script type="math/tex; mode=display">\hat{\tau} = \sum_{i=1}^{N} \frac{y_i}{\pi_i}</script>
 
-<p>The inclusion probabilities are values set in advance by the
-specification of a sampling design. Many sampling
-designs are available, and one common one is simple random
-sapling without replacement (SRSWoR).</p>
+<p>The inclusion probabilities are values set in advance by the specification of a sampling design.
+Many sampling designs are available, and one common one is simple random sapling without replacement
+(SRSWoR).</p>
 
-<p>SRSWoR begins by randomly selecting an initial population unit,
-where all population units have an equal probability of
-selection. Then, at the second stage, the previously sampled unit
-is not replaced, and the remaining population units have an equal
-probability of selection. This process continues until <script type="math/tex">n</script> units
-have been selected. <a href="https://math.stackexchange.com/questions/2086983/inclusion-probability-in-simple-random-sampling-srs-without-replacement" target="_blank">It can be shown</a> that for all units, such a process will result in an inclusion
+<p>SRSWoR begins by randomly selecting an initial population unit, where all population units have an
+equal probability of selection. Then, at the second stage, the previously sampled unit is not
+replaced, and the remaining population units have an equal probability of selection. This process
+continues until <script type="math/tex">n</script> units have been selected. <a href="https://math.stackexchange.com/questions/2086983/inclusion-probability-in-simple-random-sampling-srs-without-replacement" target="_blank">It can be shown</a> that for all units, such a process will result in an inclusion
 probability of <script type="math/tex">\pi_i = \frac{n}{N}</script> for all units.</p>
 
 <h3 id="establishing-unbiasedness">Establishing Unbiasedness</h3>
 
-<p>The Horvitz-Thompson estimator has long been known to be an
-unbiased estimator of the population total. That is, the
-expectation of the estimator, taken over all possible samples, is
-equal the the population total:</p>
+<p>The Horvitz-Thompson estimator has long been known to be an unbiased estimator of the population
+total. That is, the expectation of the estimator, taken over all possible samples, is equal the the
+population total:</p>
 
 <script type="math/tex; mode=display">E_{D}[\hat{\tau}] = \tau</script>
 
-<p>where the subscript <script type="math/tex">D</script> refers to the expectation taken over all
-possible samples (i.e. it is a function of the sampling design).</p>
+<p>where the subscript <script type="math/tex">D</script> refers to the expectation taken over all possible samples (i.e. it is a
+function of the sampling design).</p>
 
-<p>In this case, the expectation is really just a summation over all
-possible realizations of the estimator:</p>
+<p>In this case, the expectation is really just a summation over all possible realizations of the
+estimator:</p>
 
 <script type="math/tex; mode=display">E_{D}[\hat{\tau}] = \frac{1}{S} \sum_{j=1}^{S}\hat{\tau}_j</script>
 
-<p>where <script type="math/tex">S</script> represents the total number of possible samples. Note
-that any given <em>sample</em> (i.e. any <em>set</em> of <em>population units</em>
-selected for sampling) is just as likely to get selected as any
-other. Unfortunately, for even modest sized
-populations, <script type="math/tex">S</script> becomes a very large number. For the purposes
-of illustration we will take advantage of a Monte-Carlo
-simulation to visualize the unbiasedness of the HT estimator.</p>
+<p>where <script type="math/tex">S</script> represents the total number of possible samples. Note that any given <em>sample</em> (i.e. any
+<em>set</em> of <em>population units</em> selected for sampling) is just as likely to get selected as any other.
+Unfortunately, for even modest sized populations, <script type="math/tex">S</script> becomes a very large number. For the
+purposes of illustration we will take advantage of a Monte-Carlo simulation to visualize the
+unbiasedness of the HT estimator.</p>
 
 <script type="math/tex; mode=display">E_{D}[\hat{\tau}] \approx \frac{1}{M} \sum_{j=1}^{M}\hat{\tau}_j</script>
 
@@ -161,29 +155,29 @@ simulation to visualize the unbiasedness of the HT estimator.</p>
 
 <h3 id="visualizing-unbiasedness">Visualizing Unbiasedness</h3>
 
-<p>The following visualization displays a population of <script type="math/tex">N=36</script>
-population units, represented by grid cells. The population
-values are indicated by the grid cell color. Hover your mouse
-over a particular grid cell to see the actual value. On the right
-is a figure that will demonstrate the unbiasedness of the HT
-estimator once the simulation begins.</p>
+<p>The following visualization displays a population of <script type="math/tex">N=36</script> population units, represented by grid
+cells. The population values are indicated by the grid cell color. Hover your mouse over a
+particular grid cell to see the actual value. On the right is a figure that will demonstrate the
+unbiasedness of the HT estimator once the simulation begins.</p>
 
-<div id="figure2" align="center">
+<div id="figure2">
   <div id="gridBody2"></div>
   <div id="estBody"></div>
-<div id="option">
+</div>
+<div id="option" align="center">
   <button id="startButton" type="button">Start</button>
 </div>
-</div>
+
 <script src="/scripts/grid2.js"></script>
 
-<p>The simulation iteratively samples the population using SRSWoR with a sample size <script type="math/tex">n=4</script>. A sample is collected when a set of
-grid cells flashes in red. The red squares at each phase represent the sampled population units. At
-each iteration <script type="math/tex">j</script>, the estimator <script type="math/tex">\hat{\tau_j}</script> is calculated. Additionally all of the previous
-iterations are aggregated into the approximated expected value, and added to the plot on the right.</p>
+<p>The simulation iteratively samples the population using SRSWoR with a sample size <script type="math/tex">n=4</script>. A sample
+is collected when a set of grid cells flashes in red. The red squares at each phase represent the
+sampled population units. At each iteration <script type="math/tex">j</script>, the estimator <script type="math/tex">\hat{\tau_j}</script> is calculated.
+Additionally all of the previous iterations are aggregated into the approximated expected value, and
+added to the plot on the right.</p>
 
-<p>As the simulation progresses, it is clear that the quantity on the y axis,
-<script type="math/tex">E_{D}[\hat{\tau}]</script> approaches the true value, <script type="math/tex">\tau = 135</script>.</p>
+<p>As the simulation progresses, it is clear that the quantity on the y axis, <script type="math/tex">E_{D}[\hat{\tau}]</script>
+approaches the true value, <script type="math/tex">\tau = 135</script>.</p>
 
 <h3 id="takeaways">Takeaways</h3>
 
