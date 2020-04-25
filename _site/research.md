@@ -1,16 +1,17 @@
 # Research
 
-I am a forest biometrician at Oregon State University. I recently
+I am a postdoctoral fellow working with the Forest Inventory and Analysis program. I recently
 completed my PhD program under the advisement of Temesgen Hailemariam in the [Forest
 Measurements and Biometrics
 Lab](http://fmbl.forestry.oregonstate.edu/).
-My research interests revolve around LiDAR and remote sensing applications for large scale analysis of forest resources. In particular:
+My research interests revolve around large scale analysis of forest resources. In particular:
 
+- Utilization of Remote Sensing Data
 - Small Area Estimation
 - Uncertainty Assessment
-- Applications for Non-Parametric Methods
+- Sampling
 
-### Publications
+### Peer-Reviewed Publications
 
 Frank, Bryce, Francisco Mauro, Hailemariam Temesgen, and Kevin Ford. 2019. *Analysis of Classification Methods for Identifying Stands for Commercial Thinning using LiDAR.* Canadian Journal of Remote Sensing.
 
@@ -22,4 +23,12 @@ Mauro, Francisco, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Kev
 
 ### Conference Papers
 
-Frank, Bryce, Francisco Mauro, Manuel Gomez Roux, Antonio García Abril, Ana Hernando, Hailemariam Temesgen, Kevin Ford, José Antonio Manzanera de la Vega, and Ruben Valbuena. *Small Area Estimation of Forest Attributes Using LiDAR Based Unit-Level Models and Area-Level Models at Two Different Scales*, 2017.
+Frank, Bryce, Francisco Mauro, Manuel Gomez Roux, Antonio García Abril, Ana Hernando, Hailemariam
+Temesgen, Kevin Ford, José Antonio Manzanera de la Vega, and Ruben Valbuena. 2017. *Small Area Estimation
+of Forest Attributes Using LiDAR Based Unit-Level Models and Area-Level Models at Two Different
+Scales*.
+
+### Other Publications
+
+Frank, Bryce. 2020. *Aerial Laser Scanning for Forets Inventories: Estimation and Uncertainty at Multiple
+Scales.* Dissertation. Oregon State University.

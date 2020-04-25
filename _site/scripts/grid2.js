@@ -186,6 +186,12 @@ cells.then(function(d) {
 
 function update_ests(tau_hats, est_plot, line) {
     est_plot
+        .select('#tau_hats_path')
+        .remove()
+
+    est_plot
+        .append('g')
+        .attr('id', 'tau_hats_path')
         .append('path')
         .attr('d', function(d) { return(line(tau_hats));})
         .attr('fill', 'none')
@@ -219,7 +225,6 @@ function Simulator(render, est_plot, line) {
 
     function loop() {
         timeout = setTimeout(loop, 120);
-        console.log(tau_hats)
         tau_hats.push(render())
         get_tau_mean(tau_hats)
         update_ests(tau_means, est_plot, line)
