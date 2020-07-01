@@ -19,7 +19,14 @@ Huy, Bao, Nguyen Thi Tinh, Krishna Poudel, Bryce Frank, and Hailemariam Temesgen
 
 Mauro, Francisco, Martin Ritchie, Brian Wing, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Andrew Hudak. 2019. *Estimation of changes of forest structural attributes at three different spatial aggregation levels in Northern California using multitemporal LiDAR.* Remote Sensing.
 
-Mauro, Francisco, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Kevin Ford. 2019. *Prediction of diameter distributions and tree-lists in southwestern Oregon using LiDAR and stand-level auxiliary information.* Canadian Journal of Forest Research.
+Mauro, Francisco, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Kevin Ford. 2019.
+*Prediction of diameter distributions and tree-lists in southwestern Oregon using LiDAR and
+stand-level auxiliary information.* Canadian Journal of Forest Research.
+
+### Software Packages
+
+Higham, Matthew, Jay Ver Hoef, Bryce Frank. 2020. *sptotal: Predicting Totals and Weighted Sums from
+Spatial Data.* CRAN package repository.
 
 ### Conference Papers
 
