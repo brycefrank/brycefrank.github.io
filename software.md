@@ -19,20 +19,9 @@ This makes clipping `.las` files much more memory efficient.
 
 ## R
 
-[forvol](https://github.com/brycefrank/forvol): A tree volume equation library
-written in the R programming language. forvol provides a flexible way for forest
-inventory professionals to interact with FIA volume equations for various species. 
-
 [spsys](https://github.com/brycefrank/spsys): A package that estimates the sampling variance for
 two-dimensional systematic sampling designs that are frequently used in environmental and forestry
 surveys.
 
-[sptotal](https://github.com/highamm/sptotal): A package for estimating population totals of finite populations
-of spatially correlated data. Developed in conjunction with Matthew Higham,
-Dr. Jay Ver Hoef, and Dr. Francisco Mauro-Gutierrez (in development).
-
-## Javascript
-
-[sampling_viewer](https://github.com/brycefrank/sampling_viewer): An educational tool
-for visualizing and teaching concepts in finite population sampling and inference. Written using
-`d3.js`.
+[sptotal](https://cran.r-project.org/web/packages/sptotal/index.html): A package for estimating population totals of finite populations
+of spatially correlated data. Developed in conjunction with Dr. Matthew Higham and Dr. Jay Ver Hoef.
