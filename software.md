@@ -23,6 +23,10 @@ This makes clipping `.las` files much more memory efficient.
 written in the R programming language. forvol provides a flexible way for forest
 inventory professionals to interact with FIA volume equations for various species. 
 
+[spsys](https://github.com/brycefrank/spsys): A package that estimates the sampling variance for
+two-dimensional systematic sampling designs that are frequently used in environmental and forestry
+surveys.
+
 [sptotal](https://github.com/highamm/sptotal): A package for estimating population totals of finite populations
 of spatially correlated data. Developed in conjunction with Matthew Higham,
 Dr. Jay Ver Hoef, and Dr. Francisco Mauro-Gutierrez (in development).
