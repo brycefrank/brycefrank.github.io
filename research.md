@@ -15,6 +15,8 @@ My research interests revolve around large scale analysis of forest resources. I
 
 Frank, Bryce, Francisco Mauro, Hailemariam Temesgen, and Kevin Ford. 2019. *Analysis of Classification Methods for Identifying Stands for Commercial Thinning using LiDAR.* Canadian Journal of Remote Sensing.
 
+Frank, Bryce, Francisco Mauro, Hailemariam Temesgen. 2020. *Model-based estimation of forest inventory attributes using lidar: a comparison of the area-based and semi-individual tree crown approaches.* Remote Sensing.
+
 Huy, Bao, Nguyen Thi Tinh, Krishna Poudel, Bryce Frank, and Hailemariam Temesgen. 2019. *Taxon-specific modeling systems for improving reliability of tree aboveground biomass and its components estimates in tropical dry dipterocarp forests.* Forest Ecology and Management.
 
 Mauro, Francisco, Martin Ritchie, Brian Wing, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Andrew Hudak. 2019. *Estimation of changes of forest structural attributes at three different spatial aggregation levels in Northern California using multitemporal LiDAR.* Remote Sensing.
