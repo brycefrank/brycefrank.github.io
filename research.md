@@ -1,15 +1,12 @@
 # Research
 
-I am a postdoctoral fellow working with the Forest Inventory and Analysis program. I recently
-completed my PhD program under the advisement of Temesgen Hailemariam in the [Forest
-Measurements and Biometrics
-Lab](http://fmbl.forestry.oregonstate.edu/).
 My research interests revolve around large scale analysis of forest resources. In particular:
 
 - Utilization of Remote Sensing Data
 - Small Area Estimation
 - Uncertainty Assessment
 - Sampling
+- Forest Productivity
 
 ### Peer-Reviewed Publications
 
