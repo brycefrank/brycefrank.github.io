@@ -14,6 +14,8 @@ Frank, Bryce, Francisco Mauro, Hailemariam Temesgen, and Kevin Ford. 2019. *Anal
 
 Frank, Bryce, Francisco Mauro, Hailemariam Temesgen. 2020. *Model-based estimation of forest inventory attributes using lidar: a comparison of the area-based and semi-individual tree crown approaches.* Remote Sensing.
 
+Frank, Bryce, Vicente J. Monleon. 2021. *Comparison of Variance Estimators for Systematic Environmental Sample Surveys: Considerations for Post-stratified Estimation.* Forests.
+
 Huy, Bao, Nguyen Thi Tinh, Krishna Poudel, Bryce Frank, and Hailemariam Temesgen. 2019. *Taxon-specific modeling systems for improving reliability of tree aboveground biomass and its components estimates in tropical dry dipterocarp forests.* Forest Ecology and Management.
 
 Mauro, Francisco, Andrew Hudak, Patrick Fekety, Bryce Frank, Hailemariam Temesgen, David Bell, Matthew Gregory and Ryan McCarley. 2021. *Regional Modeling of Forest Fuels and Structural Attributes Using Airborne Laser Scanning Data in Oregon*. Remote Sensing. 
