@@ -2,11 +2,9 @@
 
 My research interests revolve around large scale analysis of forest resources. In particular:
 
-- Utilization of Remote Sensing Data
 - Small Area Estimation
-- Uncertainty Assessment
 - Sampling
-- Forest Productivity
+- Remote Sensing Applications
 
 ### Peer-Reviewed Publications
 
