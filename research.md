@@ -8,6 +8,8 @@ My research interests revolve around large scale analysis of forest resources. I
 
 ### Peer-Reviewed Publications
 
+Allensworth, Elijah, Hailemariam Temesgen, Bryce Frank, and Andrew Gray. 2021. *Imputation to predict height to crown base for trees with predicted heights.* Forest Ecology and Managment.
+
 Frank, Bryce, Francisco Mauro, Hailemariam Temesgen, and Kevin Ford. 2019. *Analysis of Classification Methods for Identifying Stands for Commercial Thinning using LiDAR.* Canadian Journal of Remote Sensing.
 
 Frank, Bryce, Francisco Mauro, Hailemariam Temesgen. 2020. *Model-based estimation of forest inventory attributes using lidar: a comparison of the area-based and semi-individual tree crown approaches.* Remote Sensing.
