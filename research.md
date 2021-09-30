@@ -8,17 +8,11 @@ My research interests revolve around large scale analysis of forest resources. I
 
 ### Peer-Reviewed Publications
 
-Allensworth, Elijah, Hailemariam Temesgen, Bryce Frank, and Andrew Gray. 2021. *Imputation to predict height to crown base for trees with predicted heights.* Forest Ecology and Managment.
+#### Remote Sensing
 
 Frank, Bryce, Francisco Mauro, Hailemariam Temesgen, and Kevin Ford. 2019. *Analysis of Classification Methods for Identifying Stands for Commercial Thinning using LiDAR.* Canadian Journal of Remote Sensing.
 
 Frank, Bryce, Francisco Mauro, Hailemariam Temesgen. 2020. *Model-based estimation of forest inventory attributes using lidar: a comparison of the area-based and semi-individual tree crown approaches.* Remote Sensing.
-
-Frank, Bryce, Vicente J. Monleon. 2021. *Comparison of Variance Estimators for Systematic Environmental Sample Surveys: Considerations for Post-stratified Estimation.* Forests.
-
-Temesgen, Hailemariam, Francisco Mauro, Andrew Thomas Hudak, Bryce Frank, Vicente Monleon, Patrick Fekety, Marin Palmer, Timothy Bryant. *Using Fay-Herriot models and variable radius plot data to develop a stand-level inventory and update a prior inventory in the Western Cascades, Oregon, USA.* Frontiers in Forests and Global Change.
-
-Huy, Bao, Nguyen Thi Tinh, Krishna Poudel, Bryce Frank, and Hailemariam Temesgen. 2019. *Taxon-specific modeling systems for improving reliability of tree aboveground biomass and its components estimates in tropical dry dipterocarp forests.* Forest Ecology and Management.
 
 Mauro, Francisco, Andrew Hudak, Patrick Fekety, Bryce Frank, Hailemariam Temesgen, David Bell, Matthew Gregory and Ryan McCarley. 2021. *Regional Modeling of Forest Fuels and Structural Attributes Using Airborne Laser Scanning Data in Oregon*. Remote Sensing. 
 
@@ -28,6 +22,17 @@ stand-level auxiliary information.* Canadian Journal of Forest Research.
 
 Mauro, Francisco, Martin Ritchie, Brian Wing, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Andrew Hudak. 2019. *Estimation of changes of forest structural attributes at three different spatial aggregation levels in Northern California using multitemporal LiDAR.* Remote Sensing.
 
+#### Allometric Modeling
+
+Allensworth, Elijah, Hailemariam Temesgen, Bryce Frank, and Andrew Gray. 2021. *Imputation to predict height to crown base for trees with predicted heights.* Forest Ecology and Managment.
+
+Huy, Bao, Nguyen Thi Tinh, Krishna Poudel, Bryce Frank, and Hailemariam Temesgen. 2019. *Taxon-specific modeling systems for improving reliability of tree aboveground biomass and its components estimates in tropical dry dipterocarp forests.* Forest Ecology and Management.
+
+#### Sampling Designs and Estimation
+
+Frank, Bryce, Vicente J. Monleon. 2021. *Comparison of Variance Estimators for Systematic Environmental Sample Surveys: Considerations for Post-stratified Estimation.* Forests.
+
+Temesgen, Hailemariam, Francisco Mauro, Andrew Thomas Hudak, Bryce Frank, Vicente Monleon, Patrick Fekety, Marin Palmer, Timothy Bryant. *Using Fay-Herriot models and variable radius plot data to develop a stand-level inventory and update a prior inventory in the Western Cascades, Oregon, USA.* Frontiers in Forests and Global Change.
 
 ### Software Packages
 
