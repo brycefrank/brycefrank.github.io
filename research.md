@@ -16,6 +16,8 @@ Frank, Bryce, Francisco Mauro, Hailemariam Temesgen. 2020. *Model-based estimati
 
 Frank, Bryce, Vicente J. Monleon. 2021. *Comparison of Variance Estimators for Systematic Environmental Sample Surveys: Considerations for Post-stratified Estimation.* Forests.
 
+Temesgen, Hailemariam, Francisco Mauro, Andrew Thomas Hudak, Bryce Frank, Vicente Monleon, Patrick Fekety, Marin Palmer, Timothy Bryant. *Using Fay-Herriot models and variable radius plot data to develop a stand-level inventory and update a prior inventory in the Western Cascades, Oregon, USA.* Frontiers in Forests and Global Change.
+
 Huy, Bao, Nguyen Thi Tinh, Krishna Poudel, Bryce Frank, and Hailemariam Temesgen. 2019. *Taxon-specific modeling systems for improving reliability of tree aboveground biomass and its components estimates in tropical dry dipterocarp forests.* Forest Ecology and Management.
 
 Mauro, Francisco, Andrew Hudak, Patrick Fekety, Bryce Frank, Hailemariam Temesgen, David Bell, Matthew Gregory and Ryan McCarley. 2021. *Regional Modeling of Forest Fuels and Structural Attributes Using Airborne Laser Scanning Data in Oregon*. Remote Sensing. 
