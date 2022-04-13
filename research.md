@@ -46,6 +46,8 @@ Temesgen, Kevin Ford, José Antonio Manzanera de la Vega, and Ruben Valbuena. 20
 of Forest Attributes Using LiDAR Based Unit-Level Models and Area-Level Models at Two Different
 Scales*.
 
+Erhardt, John, Douglas Nemeth, Emilie Blevins, Alexa Maine, Courtney Newlon, Bryce Frank, Emily Johnson, Scott W. Miller, Jeff Moss, Anna Smith, Barbara Adams. 2022. *Developing a standardized visual survey protocol for western North American freshwater mussels.* American Fisheries Society.
+
 ### Other Publications
 
 Frank, Bryce. 2020. *Aerial Laser Scanning for Forets Inventories: Estimation and Uncertainty at Multiple
