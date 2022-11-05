@@ -50,5 +50,5 @@ Erhardt, John, Douglas Nemeth, Emilie Blevins, Alexa Maine, Courtney Newlon, Bry
 
 ### Other Publications
 
-Frank, Bryce. 2020. *Aerial Laser Scanning for Forets Inventories: Estimation and Uncertainty at Multiple
+Frank, Bryce. 2020. *Aerial Laser Scanning for Forest Inventories: Estimation and Uncertainty at Multiple
 Scales.* Dissertation. Oregon State University.
