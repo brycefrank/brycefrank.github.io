@@ -19,6 +19,9 @@ This makes clipping `.las` files much more memory efficient.
 
 ## R
 
+[allometric](https://github.com/brycefrank/allometric): A package that contains
+allometric equations for trees, sourced from scientific publications.
+
 [spsys](https://github.com/brycefrank/spsys): A package that estimates the sampling variance for
 two-dimensional systematic sampling designs that are frequently used in environmental and forestry
 surveys.
