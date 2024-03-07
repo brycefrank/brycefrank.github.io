@@ -50,6 +50,8 @@ Scales*.
 
 Erhardt, John, Douglas Nemeth, Emilie Blevins, Alexa Maine, Courtney Newlon, Bryce Frank, Emily Johnson, Scott W. Miller, Jeff Moss, Anna Smith, Barbara Adams. 2022. *Developing a standardized visual survey protocol for western North American freshwater mussels.* American Fisheries Society.
 
+Blevins, Emilie, Bryce Frank, Anna Smith, Jeff Moss. 2024. *Inventory and assessment of freshwater mussels in the Bureau of Land Management Prineville District, Oregon.* American Fisheries Society.
+
 ### Other Publications
 
 Frank, Bryce. 2020. *Aerial Laser Scanning for Forest Inventories: Estimation and Uncertainty at Multiple
