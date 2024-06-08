@@ -32,6 +32,8 @@ Huy, Bao, Nguyen Thi Tinh, Krishna Poudel, Bryce Frank, and Hailemariam Temesgen
 
 Frank, Bryce, Vicente J. Monleon. 2021. *Comparison of Variance Estimators for Systematic Environmental Sample Surveys: Considerations for Post-stratified Estimation.* Forests.
 
+Frank, Bryce, Francisco Mauro, Constance A. Harrington, Kevin R. Ford. 2024. *A Method for Updating Variable Radius Plot Surveys.* Canadian Journal of Forest Research.
+
 Higham, Matt, Jay Ver Hoef, Bryce Frank, and Michael Dumelle. 2023 *sptotal: an R package for predicting weighted sums from spatial data.* The Journal of Open Source Software.
 
 Temesgen, Hailemariam, Francisco Mauro, Andrew Thomas Hudak, Bryce Frank, Vicente Monleon, Patrick Fekety, Marin Palmer, Timothy Bryant. *Using Fay-Herriot models and variable radius plot data to develop a stand-level inventory and update a prior inventory in the Western Cascades, Oregon, USA.* Frontiers in Forests and Global Change.
