@@ -56,5 +56,10 @@ Blevins, Emilie, Bryce Frank, Anna Smith, Jeff Moss. 2024. *Inventory and assess
 
 ### Other Publications
 
+Blevins, Emilie, Alexa Maine, Bryce Frank, John Erhardt, Doug Nemeth,
+Anna Smith, Scott Miller, Jack Fetters, Zach Seilo, Courtney Newlon, Jeff Moss,
+Barbara Adams. 2024. *Visual Survey Protocol Framework for Western North
+American Freshwater Mussels.* Xerces Society for Invertebrate Conservation.
+
 Frank, Bryce. 2020. *Aerial Laser Scanning for Forest Inventories: Estimation and Uncertainty at Multiple
 Scales.* Dissertation. Oregon State University.
