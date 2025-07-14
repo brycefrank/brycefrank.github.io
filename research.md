@@ -14,6 +14,8 @@ Frank, Bryce, Francisco Mauro, Hailemariam Temesgen, and Kevin Ford. 2019. *Anal
 
 Frank, Bryce, Francisco Mauro, Hailemariam Temesgen. 2020. *Model-based estimation of forest inventory attributes using lidar: a comparison of the area-based and semi-individual tree crown approaches.* Remote Sensing.
 
+Frank, Bryce, Jacob L. Strunk, Jeremy S. Fried, Karin Wolken, Sean C. McKenzie. 2025. *Comparison of digital aerial photogrammetry, lidar, and Sentinel-2 for evaluating forest fire effects.* Forest Ecology and Management.
+
 Mauro, Francisco, Andrew Hudak, Patrick Fekety, Bryce Frank, Hailemariam Temesgen, David Bell, Matthew Gregory and Ryan McCarley. 2021. *Regional Modeling of Forest Fuels and Structural Attributes Using Airborne Laser Scanning Data in Oregon*. Remote Sensing. 
 
 Mauro, Francisco, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Kevin Ford. 2019.
@@ -37,6 +39,10 @@ Frank, Bryce, Francisco Mauro, Constance A. Harrington, Kevin R. Ford. 2024. *A 
 Higham, Matt, Jay Ver Hoef, Bryce Frank, and Michael Dumelle. 2023 *sptotal: an R package for predicting weighted sums from spatial data.* The Journal of Open Source Software.
 
 Temesgen, Hailemariam, Francisco Mauro, Andrew Thomas Hudak, Bryce Frank, Vicente Monleon, Patrick Fekety, Marin Palmer, Timothy Bryant. *Using Fay-Herriot models and variable radius plot data to develop a stand-level inventory and update a prior inventory in the Western Cascades, Oregon, USA.* Frontiers in Forests and Global Change.
+
+#### Growth and Yield
+
+Joo, Sukhyun, Temesgen Hailemariam, Bryce Frank, Aaron R. Weiskittel, Don Reimer. 2025. *Roles of Growth and Yield Models for Informed Management Decisions in the Pacific Northwest United States.* Journal of Forestry.
 
 ### Software Packages
 
