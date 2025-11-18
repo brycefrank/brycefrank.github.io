@@ -24,6 +24,8 @@ stand-level auxiliary information.* Canadian Journal of Forest Research.
 
 Mauro, Francisco, Martin Ritchie, Brian Wing, Bryce Frank, Vicente J. Monleon, Hailemariam Temesgen, and Andrew Hudak. 2019. *Estimation of changes of forest structural attributes at three different spatial aggregation levels in Northern California using multitemporal LiDAR.* Remote Sensing.
 
+Mauro, Francisco, José Bernardo González-Mesquida, Manuel Gomez-Roux, Darío Domingo-Ruiz, Cristina Gómez, Lorena Caiza-Morales, Francisco Rodríguez-Puerta, Beatriz Águeda, Bryce Frank, Steven Filippelli, Johannes Breidenbach, Andrew Hudak, Hailemariam Temesgen, Patrick Fekety, José Antonio Manzanera, and David Candel-Pérez. 2025. *Combining multitemporal remote sensing data and repeated ground observations from the Spanish National Forest Inventory to inform uneven-aged management of Juniperus thurifera L. forests.* Forestry.
+
 #### Allometric Modeling
 
 Allensworth, Elijah, Hailemariam Temesgen, Bryce Frank, and Andrew Gray. 2021. *Imputation to predict height to crown base for trees with predicted heights.* Forest Ecology and Managment.
